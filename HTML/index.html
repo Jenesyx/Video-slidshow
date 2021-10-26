@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../Images/css">
+        <link rel="stylesheet" href="../CSS/style.css">
+        <title>Jenesyx - Video Slider</title>
+    </head>
+    <body>
+        <section>
+            <video id="slider" muted loop autoplay>
+                <source src="../Videos/example1" type="#">
+            </video>
+
+            <ul class="nav">
+                <li onclick="videoUrl('1')">
+                    <img src="../Images/example1" alt="">
+                </li>
+                <li onclick="videoUrl('2')">
+                    <img src="../Images/example2" alt="">
+                </li>
+                <li onclick="videoUrl('3')">
+                    <img src="../Images/example3" alt="">
+                </li>
+                <li onclick="videoUrl('4')">
+                    <img src="../Images/example4" alt="">
+                </li>
+            </ul>
+        </section>
+        <script src="../JS/main.js"></script>
+    </body>
+</html>
